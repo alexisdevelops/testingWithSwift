@@ -29,5 +29,17 @@ class SecondTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func test4Bed2BathHouse_Fits3Bed2BathRequirements() {
+        // given
+        let house = House(bedrooms: 4, bathrooms: 2)
+        let desiredBedrooms = 3
+        let desiredBathrooms = 2
+        // when
+        let suitability = house.checkSuitability(desiredBedrooms:
+                                                    desiredBedrooms, desiredBathrooms: desiredBathrooms)
+        // then
+        XCTAssertTrue(suitability)
+    }
 
 }

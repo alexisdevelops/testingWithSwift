@@ -16,6 +16,7 @@
 		5E37175625F6FA6B0079AF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E37175425F6FA6B0079AF7D /* LaunchScreen.storyboard */; };
 		5E37176125F6FA6B0079AF7D /* SecondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37176025F6FA6B0079AF7D /* SecondTests.swift */; };
 		5E37176C25F6FA6B0079AF7D /* SecondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37176B25F6FA6B0079AF7D /* SecondUITests.swift */; };
+		5E37177D25F6FCAF0079AF7D /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37177C25F6FCAF0079AF7D /* House.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5E37176725F6FA6B0079AF7D /* SecondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E37176B25F6FA6B0079AF7D /* SecondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondUITests.swift; sourceTree = "<group>"; };
 		5E37176D25F6FA6B0079AF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E37177C25F6FCAF0079AF7D /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				5E37175425F6FA6B0079AF7D /* LaunchScreen.storyboard */,
 				5E37175725F6FA6B0079AF7D /* Info.plist */,
 				5E37174F25F6FA690079AF7D /* Second.xcdatamodeld */,
+				5E37177C25F6FCAF0079AF7D /* House.swift */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				5E37174B25F6FA690079AF7D /* ViewController.swift in Sources */,
 				5E37174725F6FA690079AF7D /* AppDelegate.swift in Sources */,
 				5E37174925F6FA690079AF7D /* SceneDelegate.swift in Sources */,
+				5E37177D25F6FCAF0079AF7D /* House.swift in Sources */,
 				5E37175125F6FA690079AF7D /* Second.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
