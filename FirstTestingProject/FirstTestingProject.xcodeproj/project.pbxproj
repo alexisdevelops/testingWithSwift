@@ -20,6 +20,10 @@
 		5E37170025EC7E920079AF7D /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3716FF25EC7E920079AF7D /* ConverterTests.swift */; };
 		5E37170825ED3D350079AF7D /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37170725ED3D350079AF7D /* ThrowingTests.swift */; };
 		5E37171325ED41C40079AF7D /* AsynchronousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37171225ED41C40079AF7D /* AsynchronousTests.swift */; };
+		5E37172325F6F1DB0079AF7D /* PrimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37172225F6F1DB0079AF7D /* PrimeCalculator.swift */; };
+		5E37172925F6F21C0079AF7D /* PrimeCalculatorPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37172825F6F21C0079AF7D /* PrimeCalculatorPerformance.swift */; };
+		5E37172F25F6F4C80079AF7D /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37172E25F6F4C80079AF7D /* House.swift */; };
+		5E37173525F6F9860079AF7D /* HouseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37173425F6F9860079AF7D /* HouseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		5E37171025ED41C40079AF7D /* AsynchronousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsynchronousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E37171225ED41C40079AF7D /* AsynchronousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousTests.swift; sourceTree = "<group>"; };
 		5E37171425ED41C40079AF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E37172225F6F1DB0079AF7D /* PrimeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCalculator.swift; sourceTree = "<group>"; };
+		5E37172825F6F21C0079AF7D /* PrimeCalculatorPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCalculatorPerformance.swift; sourceTree = "<group>"; };
+		5E37172E25F6F4C80079AF7D /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		5E37173425F6F9860079AF7D /* HouseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,8 @@
 				5E3716C925EC23D90079AF7D /* Info.plist */,
 				5E3716C125EC23D70079AF7D /* FirstTestingProject.xcdatamodeld */,
 				5E3716EE25EC24000079AF7D /* Converter.swift */,
+				5E37172225F6F1DB0079AF7D /* PrimeCalculator.swift */,
+				5E37172E25F6F4C80079AF7D /* House.swift */,
 			);
 			path = FirstTestingProject;
 			sourceTree = "<group>";
@@ -147,6 +157,8 @@
 				5E3716D225EC23D90079AF7D /* FirstTestingProjectTests.swift */,
 				5E3716D425EC23D90079AF7D /* Info.plist */,
 				5E37170725ED3D350079AF7D /* ThrowingTests.swift */,
+				5E37172825F6F21C0079AF7D /* PrimeCalculatorPerformance.swift */,
+				5E37173425F6F9860079AF7D /* HouseTest.swift */,
 			);
 			path = FirstTestingProjectTests;
 			sourceTree = "<group>";
@@ -329,9 +341,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E37172F25F6F4C80079AF7D /* House.swift in Sources */,
 				5E3716BD25EC23D70079AF7D /* ViewController.swift in Sources */,
 				5E3716B925EC23D70079AF7D /* AppDelegate.swift in Sources */,
 				5E3716C325EC23D70079AF7D /* FirstTestingProject.xcdatamodeld in Sources */,
+				5E37172325F6F1DB0079AF7D /* PrimeCalculator.swift in Sources */,
 				5E3716BB25EC23D70079AF7D /* SceneDelegate.swift in Sources */,
 				5E3716EF25EC24000079AF7D /* Converter.swift in Sources */,
 			);
@@ -341,6 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E37173525F6F9860079AF7D /* HouseTest.swift in Sources */,
+				5E37172925F6F21C0079AF7D /* PrimeCalculatorPerformance.swift in Sources */,
 				5E37170025EC7E920079AF7D /* ConverterTests.swift in Sources */,
 				5E3716D325EC23D90079AF7D /* FirstTestingProjectTests.swift in Sources */,
 				5E37170825ED3D350079AF7D /* ThrowingTests.swift in Sources */,
